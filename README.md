@@ -51,7 +51,7 @@ npm or yarn
 Installation
 Clone the project
 ```
-git clone [https://github.com/pranabXblaze/whiteboard-app.git](https://github.com/pranabXblaze/whiteboard-app.git)
+git clone https://github.com/pranabXblaze/whiteboard-app.git
 cd whiteboard-app
 ```
 
