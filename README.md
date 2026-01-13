@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎨 Real-Time Collaborative Whiteboard
 
-## Getting Started
+A high-performance, real-time collaborative whiteboard application that allows multiple users to brainstorm, draw, and visualize ideas together on a shared canvas.
 
-First, run the development server:
+Repository: https://github.com/pranabXblaze/whiteboard-app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🚀 Features
+
+Real-Time Collaboration: Multiple users can draw on the same canvas simultaneously with zero latency using Socket.io.
+
+Drawing Toolset:
+
+Pencil: Freehand drawing with adjustable stroke width.
+
+Shapes: Create perfect Rectangles, Circles, and Lines.
+
+Eraser: Precision erasing for corrections.
+
+Room System: Create or join specific rooms using unique codes to collaborate with specific teams.
+
+Canvas Management:
+
+Undo/Redo: Full history tracking for all drawing actions.
+
+Clear Canvas: Wipe the board clean with a single click.
+
+Download: Export your collaborative masterpieces as PNG or JPEG images.
+
+Responsive UI: Optimized for both mouse-based desktop interaction and touch-based tablet use.
+
+🛠 Tech Stack
+
+Frontend: React.js with Hooks and Context API.
+
+Backend: Node.js & Express.
+
+Real-Time Engine: Socket.io for bi-directional event-based communication.
+
+Styling: Tailwind CSS for a modern, sleek interface.
+
+Canvas API: Standard HTML5 Canvas for high-performance rendering.
+
+💻 Getting Started
+
+Prerequisites
+
+Node.js (v14 or higher)
+
+npm or yarn
+
+Installation
+Clone the project
+```
+git clone [https://github.com/pranabXblaze/whiteboard-app.git](https://github.com/pranabXblaze/whiteboard-app.git)
+cd whiteboard-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Setup dependencies
+```
+npm install
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open the App
+Visit 
+```
+http://localhost:3000
+```
+in multiple browser tabs to test the real-time synchronization.
 
-## Learn More
+📖 Usage Guide
 
-To learn more about Next.js, take a look at the following resources:
+Join a Room: Enter a username and a Room ID (e.g., "TeamAlpha").
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Select Tools: Use the toolbar at the top/side to switch between the Pencil, Rectangle, and Circle tools.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Adjust Colors: Choose from the palette to change your stroke color.
 
-## Deploy on Vercel
+Collaborate: Share your Room ID with a friend to start drawing together!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📸 Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Lobby / Room Join
+
+Drawing Canvas
+<img width="1906" height="905" alt="image" src="https://github.com/user-attachments/assets/bb4115f8-807d-419e-8d11-a2afe4b400d7" />
+
+
+
+
+
+🤝 Contributing
+
+Contributions are welcome! Please follow these steps:
+
+Fork the Project.
+
+
+📜 License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+Developed with ❤️ by Pranab
