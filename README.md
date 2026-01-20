@@ -1,6 +1,6 @@
 🎨 Real-Time Collaborative Whiteboard
 
-A high-performance, real-time collaborative whiteboard application that allows multiple users to brainstorm, draw, and visualize ideas together on a shared canvas.
+A real-time collaborative whiteboard application that allows multiple users to brainstorm, draw, and visualize ideas together on a shared canvas.
 
 Repository: https://github.com/pranabXblaze/whiteboard-app/
 
